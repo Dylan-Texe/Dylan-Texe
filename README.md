@@ -59,7 +59,7 @@ Planned areas:
 
 Repository: `windows-infrastructure-lab`
 
-**Status:** Planned
+**Status:** Complete / Documented
 
 ---
 
@@ -83,7 +83,7 @@ Planned areas:
 
 Repository: `networking-lab`
 
-**Status:** Planned
+**Status:** Next
 
 ---
 
@@ -234,6 +234,33 @@ Repository: `legacy-projects`
 
 ---
 
+## 🖥️ Lab Hardware Strategy
+
+The portfolio is designed around the hardware actually available rather than assuming access to enterprise infrastructure.
+
+The current primary lab host is a Pop!_OS system using KVM/QEMU/libvirt. The Windows Infrastructure Lab demonstrated that running multiple full Windows VMs simultaneously can become constrained by available RAM and CPU resources.
+
+Hardware requirements are therefore classified before starting each project:
+
+| Project | Hardware Risk | Primary Strategy |
+|---|---|---|
+| Windows Infrastructure Lab | 🟠 High | Limited Windows VM topology; document reconstruction stages when physical resources become the bottleneck |
+| Networking Lab | 🟢 Low | Linux networking, libvirt, namespaces, lightweight services and packet-analysis tools |
+| PowerShell IT Toolkit | 🟢 Very Low | Scripts tested against available Windows systems/VMs |
+| Linux Infrastructure Lab | 🟢 Very Low | Native Linux, lightweight VMs and services |
+| Network Monitor | 🟢 Very Low | Software-based monitoring of existing hosts and services |
+| IoT Environment Monitor | 🟢 Low | Existing Raspberry Pi, Arduino and sensor hardware |
+| AI Troubleshooting Assistant | 🟡 Medium | Lightweight application with local AI treated as optional/replaceable compute |
+| Legacy Projects Archive | 🟢 None | Documentation and reconstruction only |
+
+### Hardware Rule
+
+A project should not require additional hardware simply because additional hardware would be convenient. Where practical, virtualisation, containers, network namespaces, simulation and existing equipment should be used first.
+
+A future higher-performance machine, such as the Legion Go, may become the primary lab host if virtualization requirements outgrow the current system. This is a planned option, not a dependency for the current roadmap.
+
+---
+
 ## 📚 Technical Reference
 
 This repository is also intended to function as a personal technical reference.
@@ -308,3 +335,4 @@ Verification
 
 Lessons Learned
     What would I do differently next time?
+```
