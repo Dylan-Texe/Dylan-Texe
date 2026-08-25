@@ -1,4 +1,4 @@
-# Dylan-Tech
+# Dylan_Tech
 
 ## 💻 IT Systems, Networking, Automation, and Electronics
 
