@@ -1,19 +1,26 @@
 # ᴅʏʟᴀɴ//.exe
 
 ```text
-                 .-''''-.
-              .-'  ◉  ◉  '-.
-            .'      ╲╱      '.
-           /    ╱  ▿  ╲       \
-          ;     ╲_____╱        ;
-          |       ╲ ╱         |
-          ;    .-──────-.     ;
-           \  /  ⟟  ⟟  \    /
-            '.          .'
-              '-.____.-'
-                 ║  ║
-             ────╨──╨────
-               SIGNAL // 001
+                    .-''''''''-.
+                 .-'              '-.
+               .'                    '.
+              /                        \
+             /       .--------.         \
+            ;      .'  ◉    ◉  '.        ;
+            |     /       ▿       \       |
+            |    ;     .-───-.     ;      |
+            |    |    /  ╲ ╱  \    |      |
+            |    ;    \   ─   /    ;      |
+            |     \    '─────'    /       |
+            ;      '.            .'        ;
+             \        '--------'          /
+              '.                          .'
+                '-.                    .-'
+                   '---.________.---'
+                        ║      ║
+                        ║      ║
+                   ─────╨──────╨─────
+                      SIGNAL // 001
 ```
 
 ## 💻 IT Systems • Networking • Automation • Electronics
@@ -43,7 +50,7 @@ The work spans infrastructure, networking, Linux, Windows, PowerShell, Python, a
 
 Several projects are actively developed in private repositories. They are intentionally not described publicly while development is underway.
 
-**Private projects:** 6 active repositories.
+**Private projects:** 7 active repositories.
 
 ---
 
