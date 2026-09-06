@@ -1,26 +1,21 @@
 # ᴅʏʟᴀɴ//.exe
 
 ```text
-                    .-''''''''-.
-                 .-'              '-.
-               .'                    '.
-              /                        \
-             /       .--------.         \
-            ;      .'  ◉    ◉  '.        ;
-            |     /       ▿       \       |
-            |    ;     .-───-.     ;      |
-            |    |    /  ╲ ╱  \    |      |
-            |    ;    \   ─   /    ;      |
-            |     \    '─────'    /       |
-            ;      '.            .'        ;
-             \        '--------'          /
-              '.                          .'
-                '-.                    .-'
-                   '---.________.---'
-                        ║      ║
-                        ║      ║
-                   ─────╨──────╨─────
-                      SIGNAL // 001
+                         .      *       .
+              *                    .
+       .             .       *
+                  .-''''''''-.
+               .-'     \ | /    '-.
+             .'       -- ☼ --      '.
+            /          / | \          \
+           ;                           ;
+           |        /\          /\      |
+           |       /  \  /\    /  \     |
+           |______/____\/__\__/____\____|
+             /\/\/\/\/\/\/\/\/\/\/\/\
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+              ~  ~    ~   ~    ~  ~
+                 SIGNAL // 001
 ```
 
 ## 💻 IT Systems • Networking • Automation • Electronics
@@ -66,7 +61,7 @@ Several projects are actively developed in private repositories. They are intent
 - Automation
 - Virtualisation
 - Electronics & Microcontrollers
-- Raspberry Pi / Arduino / ESP32
+- Raspberry Pi / Arduino
 - IoT
 - AI & Local Models
 - Monitoring
