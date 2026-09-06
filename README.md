@@ -1,338 +1,119 @@
 # ᴅʏʟᴀɴ//.exe
 
-## 💻 IT Systems, Networking, Automation, and Electronics
+```text
+                 .-''''-.
+              .-'  ◉  ◉  '-.
+            .'      ╲╱      '.
+           /    ╱  ▿  ╲       \
+          ;     ╲_____╱        ;
+          |       ╲ ╱         |
+          ;    .-──────-.     ;
+           \  /  ⟟  ⟟  \    /
+            '.          .'
+              '-.____.-'
+                 ║  ║
+             ────╨──╨────
+               SIGNAL // 001
+```
 
-This repository is a running record of IT, systems, networking, automation, electronics, and AI projects that I build and experiment with in my own time.
+## 💻 IT Systems • Networking • Automation • Electronics
 
-The purpose of this portfolio is not only to demonstrate what I can do, but also to document what I learn along the way.
+A running record of systems I build, break, troubleshoot, and document.
 
-Most projects are practical experiments. I build systems, test them, break them, troubleshoot them, rebuild them, and document what I learn.
-
-This repository will also serve as my personal technical reference for commands, configurations, troubleshooting methods, and lessons learned.
+The work spans infrastructure, networking, Linux, Windows, PowerShell, Python, automation, electronics, AI, and experimental software. The focus is practical: **build → test → break → investigate → fix → document.**
 
 ---
 
-## 🔧 Areas of Interest
+## 🧭 Public Projects
+
+| Project | Status | Focus |
+|---|---|---|
+| [Windows Infrastructure Lab](https://github.com/Dylan-Texe/windows-infrastructure-lab) | ✅ Complete | Windows administration & infrastructure |
+| [Networking Lab](https://github.com/Dylan-Texe/networking-lab) | ✅ Complete | TCP/IP, services, routing, segmentation & troubleshooting |
+| [PowerShell IT Toolkit](https://github.com/Dylan-Texe/powershell-it-toolkit) | ✅ Core complete | Administration, diagnostics & automation |
+| [Linux Infrastructure Lab](https://github.com/Dylan-Texe/linux-infrastructure-lab) | 🟡 Building | Linux administration & infrastructure |
+| [Meridian](https://github.com/Dylan-Texe/Meridian) | 🟡 Building | Interactive data visualisation |
+| [Network Monitor](https://github.com/Dylan-Texe/network-monitor) | 🔵 Planned | Network availability & service monitoring |
+| [IoT Environment Monitor](https://github.com/Dylan-Texe/iot-environment-monitor) | 🔵 Planned | Sensors, Raspberry Pi & embedded systems |
+| [Legacy Projects](https://github.com/Dylan-Texe/legacy-projects) | 🔄 Ongoing | Older experiments and reconstruction |
+
+---
+
+## 🔒 Private Work
+
+Several projects are actively developed in private repositories. They are intentionally not described publicly while development is underway.
+
+**Private projects:** 6 active repositories.
+
+---
+
+## ⚙️ Technical Areas
 
 - IT Infrastructure
-- Networking
 - Windows / Linux
 - System Administration
+- Networking & Security
 - PowerShell
 - Python
+- Bash
 - Automation
 - Virtualisation
-- Networking and Security
-- Electronics and Microcontrollers
-- ESP32
-- Arduino
+- Electronics & Microcontrollers
+- Raspberry Pi / Arduino / ESP32
 - IoT
-- AI
-- Troubleshooting
-- System Monitoring
+- AI & Local Models
+- Monitoring
 - Databases
 - Web Technologies
+- CAD / Digital Fabrication
 
 ---
 
-## 🚧 Portfolio Projects
+## 🧪 How I Work
 
-The projects below represent the systems and experiments I intend to build, document, and progressively improve.
+```text
+        OBSERVE
+           │
+           ▼
+        FORM MODEL
+           │
+           ▼
+          BUILD
+           │
+           ▼
+          TEST
+           │
+      ┌────┴────┐
+      │         │
+    WORKS     BREAKS
+      │         │
+      │         ▼
+      │     INVESTIGATE
+      │         │
+      │         ▼
+      └─────── FIX
+                │
+                ▼
+             VERIFY
+                │
+                ▼
+            DOCUMENT
+```
 
-### Windows Infrastructure Lab
-
-A simulated small-business Windows environment designed to explore practical system administration.
-
-Planned areas:
-
-- Active Directory
-- DNS
-- DHCP
-- Group Policy
-- User and group management
-- File shares
-- NTFS permissions
-- Client domain joining
-- Windows administration
-- PowerShell automation
-- Troubleshooting
-
-Repository: `windows-infrastructure-lab`
-
-**Status:** Complete / Documented
-
----
-
-### Networking Lab
-
-A progressively more complex networking environment used to develop practical networking knowledge.
-
-Planned areas:
-
-- IPv4 addressing
-- Subnetting
-- VLANs
-- DHCP
-- DNS
-- Routing
-- NAT
-- ACLs
-- Network troubleshooting
-- Cisco Packet Tracer
-- Network topology design
-
-Repository: `networking-lab`
-
-**Status:** Next
+I prefer evidence over assumptions and reproducible results over screenshots of a working state.
 
 ---
 
-### PowerShell IT Toolkit
+## 🖥️ Lab Philosophy
 
-A collection of practical PowerShell scripts designed to automate common IT administration and troubleshooting tasks.
+The lab is built around available hardware and constrained resources. Virtualisation, lightweight services, simulation and existing equipment are preferred before buying more hardware.
 
-Planned areas:
-
-- System information
-- Hardware information
-- Network diagnostics
-- IP configuration
-- DNS testing
-- Service checks
-- Disk usage
-- Event log inspection
-- Process monitoring
-- User management
-- Basic automation
-
-Repository: `powershell-it-toolkit`
-
-**Status:** Planned
-
----
-
-### Linux Infrastructure Lab
-
-A Linux server environment used to explore system administration, networking, security, and service management.
-
-Planned areas:
-
-- Ubuntu Server
-- SSH
-- Users and groups
-- File permissions
-- Nginx
-- systemd
-- UFW
-- Fail2ban
-- Logs
-- Cron
-- Networking
-- Service management
-- Troubleshooting
-
-Repository: `linux-infrastructure-lab`
-
-**Status:** Planned
-
----
-
-### Network Monitoring System
-
-A monitoring system designed to monitor devices and services across a network.
-
-Planned functionality:
-
-- Device availability
-- Ping monitoring
-- Latency monitoring
-- Packet loss
-- Resource monitoring
-- Service availability
-- Historical data
-- Database storage
-- Dashboard
-- Alerts
-
-Repository: `network-monitor`
-
-**Status:** Planned
-
----
-
-### Electronics and IoT Projects
-
-A collection of electronics and microcontroller experiments exploring the interaction between physical hardware and software systems.
-
-Platforms and technologies may include:
-
-- ESP32
-- Arduino
-- Sensors
-- Relays
-- Displays
-- Serial communication
-- Wi-Fi
-- MQTT
-- GPIO
-- IoT devices
-
-Possible projects include:
-
-- Environmental monitoring
-- Temperature and humidity monitoring
-- Network-connected sensors
-- Automated devices
-- Hardware status monitoring
-- Sensor data logging
-
-The eventual goal is to connect selected hardware projects to Linux systems, databases, dashboards, and automation.
-
-Repository: `iot-environment-monitor`
-
-**Status:** Planned
-
----
-
-### AI Troubleshooting Assistant
-
-An experimental AI system designed to assist with technical troubleshooting using documentation, system information, and previously documented troubleshooting cases.
-
-Potential functionality:
-
-- Technical documentation retrieval
-- Troubleshooting workflows
-- Error interpretation
-- Command suggestions
-- Log analysis
-- Diagnostic reasoning
-- Knowledge base
-- Local AI models
-- Automated documentation
-
-This project may eventually use information and troubleshooting cases generated by the other infrastructure projects.
-
-Repository: `ai-troubleshooting-assistant`
-
-**Status:** Planned
-
----
-
-### Legacy Projects Archive
-
-A collection of older projects and experiments that were created before this portfolio was established.
-
-Many of these projects no longer have their original files.
-
-Where possible, they will be reconstructed from memory and documented to preserve what was learned from them.
-
-This section exists because not every useful project survives intact.
-
-Repository: `legacy-projects`
-
-**Status:** Ongoing
-
----
-
-## 🖥️ Lab Hardware Strategy
-
-The portfolio is designed around the hardware actually available rather than assuming access to enterprise infrastructure.
-
-The current primary lab host is a Pop!_OS system using KVM/QEMU/libvirt. The Windows Infrastructure Lab demonstrated that running multiple full Windows VMs simultaneously can become constrained by available RAM and CPU resources.
-
-Hardware requirements are therefore classified before starting each project:
-
-| Project | Hardware Risk | Primary Strategy |
-|---|---|---|
-| Windows Infrastructure Lab | 🟠 High | Limited Windows VM topology; document reconstruction stages when physical resources become the bottleneck |
-| Networking Lab | 🟢 Low | Linux networking, libvirt, namespaces, lightweight services and packet-analysis tools |
-| PowerShell IT Toolkit | 🟢 Very Low | Scripts tested against available Windows systems/VMs |
-| Linux Infrastructure Lab | 🟢 Very Low | Native Linux, lightweight VMs and services |
-| Network Monitor | 🟢 Very Low | Software-based monitoring of existing hosts and services |
-| IoT Environment Monitor | 🟢 Low | Existing Raspberry Pi, Arduino and sensor hardware |
-| AI Troubleshooting Assistant | 🟡 Medium | Lightweight application with local AI treated as optional/replaceable compute |
-| Legacy Projects Archive | 🟢 None | Documentation and reconstruction only |
-
-### Hardware Rule
-
-A project should not require additional hardware simply because additional hardware would be convenient. Where practical, virtualisation, containers, network namespaces, simulation and existing equipment should be used first.
-
-A future higher-performance machine, such as the Legion Go, may become the primary lab host if virtualization requirements outgrow the current system. This is a planned option, not a dependency for the current roadmap.
+The goal is not to collect projects. It is to build a connected body of practical knowledge where each system can feed experience, tooling and lessons into the next.
 
 ---
 
 ## 📚 Technical Reference
 
-This repository is also intended to function as a personal technical reference.
+Commands, configurations, troubleshooting procedures, hardware notes and lessons learned are progressively documented alongside the projects that produced them.
 
-Rather than keeping useful information scattered across browser bookmarks, notes, and old projects, commonly used commands and procedures will be documented here.
-
-Reference material may include:
-
-- Linux commands
-- Windows commands
-- PowerShell commands
-- Networking commands
-- Git commands
-- SSH
-- systemd
-- UFW
-- Docker
-- Virtualisation
-- Python
-- Bash
-- Database commands
-- Troubleshooting procedures
-- Configuration examples
-- Useful scripts
-- Hardware notes
-- Lessons learned
-
-Reference material will be separated from project documentation where appropriate.
-
----
-
-## 🛠️ Troubleshooting Method
-
-When something breaks, I document the process rather than simply recording the final solution.
-
-My general troubleshooting process is:
-
-1. Identify the symptoms
-2. Reproduce the problem
-3. Gather information
-4. Form a hypothesis
-5. Test the hypothesis
-6. Identify the root cause
-7. Apply a fix
-8. Verify the result
-9. Document the solution
-10. Record what was learned
-
-Example structure:
-
-```text
-Problem
-    What happened?
-
-Symptoms
-    What was observed?
-
-Investigation
-    What was checked?
-
-Findings
-    What information was discovered?
-
-Root Cause
-    Why did it happen?
-
-Resolution
-    What was changed?
-
-Verification
-    How was the fix confirmed?
-
-Lessons Learned
-    What would I do differently next time?
-```
+**The repository is the map. The labs are the experiments.**
