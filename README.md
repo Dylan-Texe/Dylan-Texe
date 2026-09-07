@@ -315,8 +315,7 @@ Commands, configurations, troubleshooting procedures, hardware notes, and lesson
 <div align="center">
 
 ```text
-                                        end of transmission
-                                           SIGNAL // 001
+end of transmission
 ```
 
 </div>
