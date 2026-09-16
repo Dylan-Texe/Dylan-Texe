@@ -307,7 +307,6 @@ Commands, configurations, troubleshooting procedures, hardware notes, and lesson
 | | |
 |---|---|
 | GitHub | [Dylan-Texe](https://github.com/Dylan-Texe) |
-| X | [Dylan_Texe](https://x.com/Dylan_Texe) |
 | Site | [thetechbriefing.com](https://thetechbriefing.com) |
 
 ---
