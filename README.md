@@ -95,7 +95,7 @@
 
 **IT Systems · Networking · Automation · Electronics**
 
-[GitHub](https://github.com/Dylan-Texe) · [X](https://x.com/Dylan_Texe) · [The Tech Briefing](https://thetechbriefing.com)
+[GitHub](https://github.com/Dylan-Texe) · [The Tech Briefing](https://thetechbriefing.com)
 
 </div>
 
